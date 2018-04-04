@@ -4,7 +4,7 @@ title:  "It's another attempt at a blog"
 date:   2018-04-04 20:43:12 +0100
 categories: blog status
 ---
-
+![Header]({{ "/assets/2018-04-04-another-attempt-at-a-blog.header" | absolute_url }})
 I'm doing a blog.  Again.
 
 Looking at [my GitHub profile][my github], there's a clear periodicity to my urge to code.  There's a telltale green band on my submissions around every three months.  And it's that time of the year again. Once again I'm going to try and get my lapsed website up and running again.
