@@ -17,6 +17,12 @@ And it happened again this time around.  I started with a clean slate, followed 
 
 What this does mean is that in it's current setup I can't play around without the site before pushing it to production.  Expect things to get a bit ropey round here while I get settled in.
 
+_Addendum 2018-04-05: Hurrah!  I managed to get it to display locally.  No more pushing my files to the cloud speculatively in the hope they fix my problem._
+
+_For some reason despite apparently stopping and restarting the ```bundle exec jekyll serve``` command as per instructions, despite even closing and reopening my terminal window, it must have been serving some old version of the site.   Serving the site on a different port by appending ```--port <any number that's not the default port, 4000>``` to that command allowed me to finally see what I can see what this site actually looks like._
+
+_Now I can really get make this place my own._
+
 [my github]:https://github.com/dominicbisset
 [jekyll]:https://jekyllrb.com/
 [netlify]:https://www.netlify.com/
