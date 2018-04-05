@@ -19,6 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Work in progress.  The email address might be defunct.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dominicbisset.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:year/:month/:title
 twitter_username: dominicbisset
 github_username:  dominicbisset
 
