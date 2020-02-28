@@ -88,6 +88,7 @@ function getAudioForNote(note){
     ).audio;
 };
 
+
 function getNoteFromNoteLabel(noteLabel){
     return {
         octave: noteLabel[0],
@@ -100,6 +101,19 @@ function playNote(noteLabel){
     note = getNoteFromNoteLabel(noteLabel);
     noteAudio = getAudioForNote(note).cloneNode(true);
     noteAudio.play();
+};
+
+
+var noteButtons = document.getElementsByClassName("playNoteButton");
+for(var i = 0; i < noteButtons.length; i++){
+    button = noteButtons[i];
+    button.addEventListener('touchstart', function(e){
+        playNote(e.target.value);
+        e.preventDefault;
+    });
+    button.addEventListener('click', function(e){
+        playNote(e.target.value);
+    })
 };
 
 document.addEventListener("keyup", function(event){
