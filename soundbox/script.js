@@ -78,7 +78,9 @@ var audioSources = [
 ];
 
 audioSources.forEach( audioItem =>{
-    audioItem.audio.load();
+    
+    audioItem.audio.preload = 'auto';
+    // audioItem.audio.load();
 });
 
 function getAudioForNote(note){
