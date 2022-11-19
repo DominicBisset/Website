@@ -1,0 +1,4 @@
+{ 
+    "layout": "layouts/draft.njk", 
+    "tags":"drafts"
+}
