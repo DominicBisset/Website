@@ -1,0 +1,112 @@
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0px;
+  min-height: 100%;
+  background: rgb(200,197,0);
+  background: linear-gradient( 
+      26deg
+    , rgb(255,255,0) 0%
+    , rgb(255,255,166) 30% 
+    , rgb(0,255,255) 30% 
+    , rgb(166,255,255) 70% 
+    , rgb(255,0,255) 70% 
+    , rgb(255,166,255) 100% 
+  );
+  background-attachment: fixed;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.masthead{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(26deg);
+  text-align: center;
+}
+
+.pageMasthead{
+  position: absolute;
+  left: 100%;
+  top: 0%;
+  transform: translate(-120%, 20%) rotate(26deg);
+  text-shadow: 0 0 0px, 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black;
+}
+.pageMasthead a{
+  text-decoration: none;
+}
+
+nav{
+  margin-top:  95vh;
+  width:80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  font-size: max(5vh,25px);
+}
+
+h1{
+  margin: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+.masthead h1{
+  font-size: 30vh;
+  line-height: 30vh;
+  text-shadow: 0 0 0px, 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black, 8px 8px black, 9px 9px black, 10px 10px black, 11px 11px black, 12px 12px black, 13px 13px black, 14px 14px black;
+}
+
+article {
+  margin-top: 20vh;
+}
+
+article h1{
+  font-size: 15vh;
+  line-height: 15vh;
+  text-shadow: 0 0 0px, 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black;
+}
+
+.masthead ul{
+  text-align: center;
+  width: 75vw;
+  padding: 0px;
+  margin: 0px;
+}
+
+li{
+  padding: 1vw;
+}
+
+.masthead li{
+  display: inline-block;
+  list-style: none;
+}
+
+
+@media screen and (orientation: portrait) {
+  .masthead h1{
+    font-size: 30vw;
+    line-height: 30vw;
+  }
+  article h1{
+    font-size: 15vw;
+    line-height: 15vw;
+  }
+}
+
+@media screen and (min-height: 750px) and (min-width: 500px){
+  nav{
+    width:60vw;
+  }
+  .masthead h1{
+    text-shadow: 0 0 0px, 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black, 8px 8px black, 9px 9px black, 10px 10px black, 11px 11px black, 12px 12px black, 13px 13px black, 14px 14px black, 15px 15px black, 16px 16px black, 17px 17px black, 18px 18px black, 19px 19px black, 20px 20px black, 21px 21px black, 22px 22px black, 23px 23px black, 24px 24px black, 25px 25px black, 26px 26px black, 27px 27px black, 28px 28px black, 29px 29px black, 30px 30px black, 31px 31px black, 32px 32px black, 33px 33px black, 34px 34px black, 35px 35px black;
+  }
+  article h1{
+    text-shadow: 0 0 0px, 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black, 8px 8px black, 9px 9px black, 10px 10px black, 11px 11px black, 12px 12px black, 13px 13px black, 14px 14px black;
+  }
+}

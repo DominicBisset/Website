@@ -1,7 +1,5 @@
 ---
-layout: post.njk
 date: 2022-11-09
-tags: post
 title: The Whys of Mastodon
 ---
 
@@ -13,4 +11,4 @@ Twitter is in meltdown.  Since Musk's takover Lots of disenfrancised tweeps are 
 
 While there's not been a clear cut alternative, Mastdon has emerged as the potential replacement, even garnering the interest of [bbc news](https://www.bbc.co.uk/news/technology-63534240).
 
-I myself have a mastodon account now - [bisset.me.uk/@Dominic](https://bisset.me.uk/@Dominic) - and I've 
+I myself have a mastodon account now - [bisset.me.uk/@Dominic](https://bisset.me.uk/@Dominic)  
